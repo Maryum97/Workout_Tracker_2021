@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const Workout = require("../models/workout.js");
 
 // Find all exercises
-router.get('/api/workout', (req, res) => {
+router.get('/api/workouts', (req, res) => {
     Workout.find({})
         .then((dbWorkout) => {
             res.json(dbWorkout);
@@ -15,7 +15,7 @@ router.get('/api/workout', (req, res) => {
 });
 
 // Find a range/limit of exercises
-router.get('/api/workout/range', (req, res) => {
+router.get('/api/workouts/range', (req, res) => {
     Workout.find({})
         .limit(7)
         .then((dbWorkout) => {
@@ -27,7 +27,7 @@ router.get('/api/workout/range', (req, res) => {
 });
 
 // Add a new exercise
-router.post('/api/workout', ({ body }, res) => {
+router.post('/api/workouts', ({ body }, res) => {
     Workout.create({})
         .then((dbWorkout) => {
             res.json(dbWorkout);
@@ -38,7 +38,7 @@ router.post('/api/workout', ({ body }, res) => {
 });
 
 // Update an existing exercise
-router.put('/api/workout/:id', ({ params, body }, res) => {
+router.put('/api/workouts/:id', ({ params, body }, res) => {
     Workout.findByIdAndUpdate(
         {
             _id: params.id
