@@ -21,8 +21,6 @@ mongoose.connect(MONGODB_URI, {
     useFindAndModify: false,
 });
 
-mongoose.set("debug", true);
-
 app.listen(PORT, () => {
     console.log(`Now listening on port: ${PORT}`);
 });
