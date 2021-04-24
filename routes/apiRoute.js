@@ -16,13 +16,21 @@ router.get('/api/workouts', (req, res) => {
 
 // Find a range/limit of exercises
 router.get('/api/workouts/range', (req, res) => {
-    Workout.find({})
+    Workout.aggregate([
+        {
+            $addFields: {
+                totalDuration: {
+                    $sum: '$exercises.duration',
+                },
+            },
+        },
+    ])
+        .sort({ _id: -1 })
         .limit(7)
-        .then((dbWorkout) => {
-            res.json(dbWorkout);
+        .then((dbWorkouts) => {
+            res.json(dbWorkouts);
         })
         .catch((err) => {
-            console.log(err);
             res.json(err);
         });
 });
