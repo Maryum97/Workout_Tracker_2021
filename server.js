@@ -14,12 +14,14 @@ app.use(htmlRoutes);
 app.use(apiRoutes);
 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
-mongoose.connect(MONGODB_URI,{  
+mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
-    useFindAndModify: false
-})
+    useFindAndModify: false,
+});
+
+mongoose.set("debug", true);
 
 app.listen(PORT, () => {
     console.log(`Now listening on port: ${PORT}`);
