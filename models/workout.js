@@ -12,10 +12,12 @@ const workoutSchema = new Schema({
         {
             type: {
                 type: String,
+                trim: true,
                 required: "Type of exercise is required"
             },
             name: {
                 type: String,
+                trim: true,
                 required: "Name of exercise is required"
             },
             duration: {
@@ -46,8 +48,8 @@ const workoutSchema = new Schema({
 
 workoutSchema.virtual('totalDuration').get(() => {
     // reduce array of exercises down to just the sum of their durations
-    return this.exercises.reduce((ttl, exc) => {
-        return ttl + exc.duration
+    return this.exercises.reduce((total, exercise) => {
+        return total + exercise.duration;
     }, 0);
 });
 
