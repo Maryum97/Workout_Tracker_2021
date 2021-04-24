@@ -45,7 +45,7 @@ const workoutSchema = new Schema({
             virtuals: true,
             getters: true
         },
-        
+
         id: false
     });
 
