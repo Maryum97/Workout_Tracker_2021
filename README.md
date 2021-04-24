@@ -1,7 +1,9 @@
 <h1 style="align: center;">Workout Tracker 👋</h1>
 
 ## 🔍 Description
-This ...
+This repository contains the homework assignment conducted through the teaching facilities of the Univesity of Birmingham, in the third phase of the Coding Bootcamp; a web application by the name "Workout Tracker". This web application is very useful to people who wish to keep track of their exercise plans, for a healthier and more organised lifestyle in their goald to become fitter.
+
+This app allows the user to 
 
 ## Table of Contents
 - [Description](#description)
