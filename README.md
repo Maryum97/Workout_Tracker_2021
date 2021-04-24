@@ -3,7 +3,7 @@
 ## 🔍 Description
 This repository contains the homework assignment conducted through the teaching facilities of the Univesity of Birmingham, in the third phase of the Coding Bootcamp; a web application by the name "Workout Tracker". This web application is very useful to people who wish to keep track of their exercise plans, for a healthier and more organised lifestyle in their goald to become fitter.
 
-This app allows the user to 
+This app allows the user to add a new workout plan, either resistance or cardio; once selected, the user is able to set their stats and view them on the homepage. In the 
 
 ## Table of Contents
 - [Description](#description)
