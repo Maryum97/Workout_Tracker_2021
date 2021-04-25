@@ -1,5 +1,10 @@
 <h1 style="align: center;">Workout Tracker 👋</h1>
 
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br />
+This application is covered by the MIT License. 
+
 ## 🔍 Description
 This repository contains the homework assignment conducted through the teaching facilities of the Univesity of Birmingham, in the third phase of the Coding Bootcamp; a web application by the name "Workout Tracker". This web application is very useful to people who wish to keep track of their exercise plans, for a healthier and more organised lifestyle in their goald to become fitter.
 
@@ -11,11 +16,11 @@ Here is the link to the deployed application on <b>Heroku</b>:
 The application is connected with <b>Atlas</b>, where all the entries are stored, and may be added, edited or deleted from.
 
 ## Table of Contents
+- [License](#license)
 - [Description](#description)
 - [Installation](#installation)
 - [Instructions](#instructions)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Credits](#credits)
@@ -69,11 +74,6 @@ Then, once the form is complete, click on the Add Exercise button - a green mess
 
 ![Dashboard](https://user-images.githubusercontent.com/73832871/115994166-bea07e80-a5cd-11eb-8a3d-0d5b2784ae5d.png)
 <br></br>
-
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-<br />
-This application is covered by the MIT License license. 
 
 ## 👪 Contributing
 If you wish to contribute to my app, contact me using the details below and gain access to my Github repository with your Github account today! Create your own branch and make amendments to my code, to make improvements or for marketing purposes.
