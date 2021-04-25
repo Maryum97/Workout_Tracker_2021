@@ -31,17 +31,20 @@ In order to install the app, you can simply gain access to this repository and c
 ## ⚙️ Instructions
 After installing the above, run the following commands in the local terminal in VS Code:
 
-> // to install the node modules 
+> // to install the node modules
+<br></br>
 > npm install
 
 <br></br>
 
 > // to seed the database 
+<br></br>
 > node seeders/seed.js
 
 <br></br>
 
 > // to run the server in the browser 
+<br></br>
 > node server.js
 
 <br></br>
