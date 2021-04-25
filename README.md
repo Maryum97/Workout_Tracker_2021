@@ -31,9 +31,9 @@ In order to install the app, you can simply gain access to this repository and c
 ## ⚙️ Instructions
 After installing the above, run the following commands in the local terminal in VS Code:
 
-> npm install // to install the node modules
-> node seeders/seed.js // to seed the database
-> node server.js // to run the server in the browser
+> npm install // to install the node modules <br></br>
+> node seeders/seed.js // to seed the database <br></br>
+> node server.js // to run the server in the browser <br></br>
 
 Now open the app in the browser, by searching for 'localhost:8000'. Feel free to use the app locally and enjoy!
 
