@@ -35,19 +35,19 @@ After installing the above, run the following commands in the local terminal in 
 <br></br>
 > npm install
 
-<br></br>
+<br>
 
 > // to seed the database 
 <br></br>
 > node seeders/seed.js
 
-<br></br>
+<br>
 
 > // to run the server in the browser 
 <br></br>
 > node server.js
 
-<br></br>
+<br>
 
 Now open the app in the browser, by searching for 'localhost:8000'. Feel free to use the app locally and enjoy!
 
