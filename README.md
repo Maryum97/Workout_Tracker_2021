@@ -31,9 +31,20 @@ In order to install the app, you can simply gain access to this repository and c
 ## ⚙️ Instructions
 After installing the above, run the following commands in the local terminal in VS Code:
 
-> npm install // to install the node modules <br></br>
-> node seeders/seed.js // to seed the database <br></br>
-> node server.js // to run the server in the browser <br></br>
+> // to install the node modules 
+> npm install
+
+<br></br>
+
+> // to seed the database 
+> node seeders/seed.js
+
+<br></br>
+
+> // to run the server in the browser 
+> node server.js
+
+<br></br>
 
 Now open the app in the browser, by searching for 'localhost:8000'. Feel free to use the app locally and enjoy!
 
@@ -42,10 +53,18 @@ Ypu can also open Robo3T and connect to view all entries in the 'workout' databa
 ## 💻 Usage
 The application is very simple in terms of usage. All you have to do is to click onn the link above, land on the Fitness Tracker page, and click on the New Wrokout button. The page renders a form, where you may select any of the two options shown in the image below:
 
+![Workout-Options](https://user-images.githubusercontent.com/73832871/115994174-c7915000-a5cd-11eb-8c38-933b7287635f.png)
+<br></br>
+
+Clicking then on the Complete button will redirect you to the landing page, where the stats for the last exercise are visible as well, as shown below:
+
+![Landing-Page](https://user-images.githubusercontent.com/73832871/115994169-c102d880-a5cd-11eb-99b0-4b31d4bc601b.png)
+<br></br>
+
 Then, once the form is complete, click on the Add Exercise button - a green message appears on the top right corner of the screen, signalling that the exercise has been included into the Dashboard. The Dashboard page must now show the stats for your exercise in the form of graphs and chart, as shown in the image below:
 
-On the homepage, the stats for the last exercise are visible as well, as shown below:
-
+![Dashboard](https://user-images.githubusercontent.com/73832871/115994166-bea07e80-a5cd-11eb-8a3d-0d5b2784ae5d.png)
+<br></br>
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -53,18 +72,29 @@ On the homepage, the stats for the last exercise are visible as well, as shown b
 This application is covered by the MIT License license. 
 
 ## 👪 Contributing
-In order to ...
+If you wish to contribute to my app, contact me using the details below and gain access to my Github repository with your Github account today! Create your own branch and make amendments to my code, to make improvements or for marketing purposes.
 
 ## ✏️ Tests
-NA
-
+There were no particular test that this app has been made to pass, except for the app to flow error-free in the local terminal and in the browser, with all the correct packages and libraries installed, the database seeded (if running locally), the Heroku app connected to the Atlas account (if running publically), and the server running at all times of use.
 
 ## 💐 Credits
-NA
+I used quite a bit of help from the following sources and fellow colleagues:
 
+Sources:
+1. YouTube.com
+2. sequelize.org
+3. Github.com
+4. StackOverflow
+5. W3Schools
+6. AskBCS
+
+My friends:
+1. Gurvinder Dehl
+2. Saadia El Fekak
+3. Claire Davies
 
 ## ✋ Questions
-undefined<br />
+If you have any questions, feel free to contact me using the details provided below:<br />
 <br />
 :octocat: Find me on GitHub: [Maryum97](https://github.com/Maryum97)<br />
 <br />
