@@ -92,8 +92,8 @@ Sources:
 6. AskBCS
 
 My friends:
-1. Gurvinder Dehl
-2. Saadia El Fekak
+1. Saadia El Fekak
+2. Gurvinder Dehl
 3. Claire Davies
 
 ## ✋ Questions
