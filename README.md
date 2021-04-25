@@ -6,6 +6,7 @@ This repository contains the homework assignment conducted through the teaching 
 This app allows the user to add a new workout plan, either resistance or cardio; once selected, the user is able to set their stats and view them on the homepage ('Fitness Tracker'). In the 'Dashboard' page, the user is able to view their overall activity over time, in terms of stats; the graph and chart on the left show the duration of workout over a week (resistance); The ones on the right show weights lifted over a week (cardio).
 
 Here is the link to the deployed application on <b>Heroku</b>:
+<a href="https://afternoon-hamlet-53419.herokuapp.com/">My Workout Tracker App</a>
 
 The application is connected with <b>Atlas</b>, where all the entries are stored, and may be added, edited or deleted from.
 
@@ -85,11 +86,10 @@ I used quite a bit of help from the following sources and fellow colleagues:
 
 Sources:
 1. YouTube.com
-2. sequelize.org
+2. AskBCS
 3. Github.com
 4. StackOverflow
 5. W3Schools
-6. AskBCS
 
 My friends:
 1. Saadia El Fekak
