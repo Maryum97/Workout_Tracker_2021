@@ -37,6 +37,12 @@ In order to install the app, you can simply gain access to this repository and c
 ## ⚙️ Instructions
 After installing the above, run the following commands in the local terminal in VS Code:
 
+> // to connect to MongoDB
+<br></br>
+> mongod
+
+<br>
+
 > // to install the node modules
 <br></br>
 > npm install
