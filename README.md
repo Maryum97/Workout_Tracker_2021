@@ -60,7 +60,7 @@ Now open the app in the browser, by searching for 'localhost:8000'. Feel free to
 Ypu can also open Robo3T and connect to view all entries in the 'workout' database.
 
 ## 💻 Usage
-The application is very simple in terms of usage. All you have to do is to click onn the link above, land on the Fitness Tracker page, and click on the New Wrokout button. The page renders a form, where you may select any of the two options shown in the image below:
+The application is very simple in terms of usage. All you have to do is to click onn the link above, land on the Fitness Tracker page, and click on the New Workout button. The page renders a form, where you may select any of the two options shown in the image below:
 
 ![Workout-Options](https://user-images.githubusercontent.com/73832871/115994174-c7915000-a5cd-11eb-8c38-933b7287635f.png)
 <br></br>
